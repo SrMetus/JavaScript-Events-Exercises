@@ -1,4 +1,4 @@
-08 Event Target
+# `08` Event Target
 Every event has useful information that you can use during the runtime.
 
 For example:
@@ -16,9 +16,9 @@ When you declare any event-handler function, you can use an optional parameter t
 function myFunctionName(eventInformation) {}
 This parameter can have any name you want, and you can trust that it will always contain the information of the event that was triggered. For example the eventInformation.target property will return the object that triggered the event.
 
-📝 Instructions:
-This website already has a listener for the click on the #container div.
+## 📝 Instructions:
+1. This website already has a listener for the click on the #container div.
 
-Please prompt an alert with the id of the target element (the element that was clicked).
-💡 Hint:
-Here is the documentation on the event.target: http://www.w3schools.com/jsref/event_target.asp
+2. Please prompt an alert with the id of the target element (the element that was clicked).
+## 💡 Hint:
+- Here is the documentation on the event.target: http://www.w3schools.com/jsref/event_target.asp

@@ -1,4 +1,4 @@
-08 Event Target
+# `08` Event Target
 Cada evento tiene información útil que puedes usar durante el tiempo de ejecución.
 
 Por ejemplo:
@@ -16,9 +16,9 @@ Cuando declaras una función event-handler, puedes usar un parámetro opcional q
 function myFunctionName(eventInformation) {}
 Este parámetro puede tener el nombre que quieras, y puedes estar seguro de que siempre contendrá la información del evento que lo activó. Por ejemplo, la propiedad eventInformation.target devolverá el objeto que activó el evento.
 
-📝 Instrucciones:
-Este sitio web ya tiene un listener cuando se hace un clic en el div #container.
+## 📝 Instrucciones:
+1. Este sitio web ya tiene un listener cuando se hace un clic en el div #container.
 
-Por favor, muestra una alerta con el id del elemento objetivo (el elemento al cual se le hizo clic).
-💡 Pista:
-Aquí está la documentación sobre event.target: http://www.w3schools.com/jsref/event_target.asp
+2. Por favor, muestra una alerta con el id del elemento objetivo (el elemento al cual se le hizo clic).
+## 💡 Pista:
+- Aquí está la documentación sobre event.target: http://www.w3schools.com/jsref/event_target.asp
