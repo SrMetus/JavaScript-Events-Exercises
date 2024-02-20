@@ -1,4 +1,4 @@
-04 Hide onclick
+# `04` Hide onclick
 📝 Instructions:
 Fill the myEventListener function with the code needed to hide the first div of the document.
 💡 Hint:
